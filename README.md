@@ -137,7 +137,7 @@ The Logic App is used to orchestrate and loop through the images for animal dete
 
 - Get the blob content from Azure Storage account and pass to Computer Vision (image content) for Azure Cognitive Service – Computer Vision to detect the animals/objects. Finally, write the API detection result in JSON format to Azure Storage account and Cosmos DB.
 
-- Get the blob content from Azure Storage account and pass to Computer Vision (image content) for Azure Cognitive Service – Custom Vision to detect the animals/objects. Finally, write the API detection result in JSON format to Azure Storage account and Cosmos DB.
+- Get the blob content from Azure Storage account and pass to Custom Vision (image content) for Azure Cognitive Service – Custom Vision to detect the animals/objects. Finally, write the API detection result in JSON format to Azure Storage account and Cosmos DB.
 
 <img src=".images\LogicAppVision.jpg" height=450 width=750 border=1> 
 
